@@ -1,0 +1,11 @@
+prefix=D:/RohitMD/Slides and Recorded Lectures/DS and ML projects/1. ML project End-end/venv/Library 
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: OpenSSL-libcrypto
+Description: OpenSSL cryptography library
+Libs: -L"${libdir}" -llibcrypto
+Libs.private: -lcrypt32 -lws2_32
+Cflags: -I"${includedir}"
+Version: 3.0.14 

@@ -1,0 +1,13 @@
+prefix=D:/RohitMD/Slides and Recorded Lectures/DS and ML projects/1. ML project End-end/venv/Library
+exec_prefix=D:/RohitMD/Slides and Recorded Lectures/DS and ML projects/1. ML project End-end/venv/Library
+libdir=D:/RohitMD/Slides and Recorded Lectures/DS and ML projects/1. ML project End-end/venv/Library/lib
+sharedlibdir=D:/RohitMD/Slides and Recorded Lectures/DS and ML projects/1. ML project End-end/venv/Library/lib
+includedir=D:/RohitMD/Slides and Recorded Lectures/DS and ML projects/1. ML project End-end/venv/Library/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
