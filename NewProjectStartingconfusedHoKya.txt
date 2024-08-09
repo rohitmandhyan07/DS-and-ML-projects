@@ -4,3 +4,4 @@ Let's learn
 	a) new environment
 	b) setup.py
 	c) requirements.txt
+2. src Folder and build the package
